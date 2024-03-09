@@ -1,0 +1,264 @@
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+table {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+
+form {
+    position: absolute;
+    left: 30%;
+    top: 60%;
+}
+
+
+.l1 {
+    position: absolute;
+    left: 110%
+}
+
+.l2 {
+    position: absolute;
+    left: 110%;
+}
+
+.l3 {
+    position: absolute;
+    left: 110%;
+}
+
+.l4 {
+    position: absolute;
+    left: 110%;
+}
+
+@media screen and (min-width:0px) and (max-width:320px) {
+    th {
+        background-color: teal;
+        box-shadow: 10px 10px 5px teal;
+
+    }
+
+    .t1,
+    .t2,
+    .t3,
+    .t4 {
+
+        background-color: gold;
+        box-shadow: 10px 10px 5px yellow;
+    }
+
+    .t5,
+    .t6,
+    .t7,
+    .t8 {
+        background-color: green;
+        box-shadow: 10px 10px 5px green;
+    }
+
+    form {
+        background-color: blueviolet;
+        box-shadow: 10px 10px 5px black;
+    }
+
+    .sub {
+        background-color: aqua;
+
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:375px) {
+    form {
+        background-color: blueviolet;
+    }
+
+    .sub {
+        background-color: aqua;
+
+    }
+
+    th,
+    .t1,
+    .t2,
+    .t3,
+    .t4,
+    .t5,
+    .t6,
+    .t7,
+    .t8 {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:376px) and (max-width:425px) {
+
+    form,
+    .sub {
+        display: none;
+    }
+
+    th {
+        background-color: teal;
+        box-shadow: 10px 10px 6px teal;
+
+    }
+
+    .t1,
+    .t2,
+    .t3,
+    .t4 {
+
+        background-color: gold;
+    }
+
+    .t5,
+    .t6,
+    .t7,
+    .t8 {
+        background-color: green;
+    }
+
+}
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    th {
+        background-color: teal;
+
+    }
+
+    .t1,
+    .t2,
+    .t3,
+    .t4 {
+
+        background-color: gold;
+        box-shadow: 10px 10px 2px yellow;
+    }
+
+    .t5,
+    .t6,
+    .t7,
+    .t8 {
+        background-color: green;
+        box-shadow: 10px 10px 5px green;
+    }
+
+    form {
+        background-color: blueviolet;
+        box-shadow: 10px 10px 5px black;
+    }
+
+    .sub {
+        background-color: aqua;
+        box-shadow: 10px 10px 5px black;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    form,
+    .sub {
+        display: none;
+    }
+
+    th {
+        background-color: teal;
+        box-shadow: 10px 10px 6px teal;
+
+    }
+
+    .t1,
+    .t2,
+    .t3,
+    .t4 {
+
+        background-color: gold;
+        box-shadow: 10px 10px 5px yellow;
+    }
+
+    .t5,
+    .t6,
+    .t7,
+    .t8 {
+        background-color: green;
+        box-shadow: 10px 10px 5px green;
+    }
+
+
+}
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    th {
+        background-color: teal;
+
+    }
+
+    .t1,
+    .t2,
+    .t3,
+    .t4 {
+
+        background-color: gold;
+        box-shadow: 10px 10px 2px yellow;
+    }
+
+    .t5,
+    .t6,
+    .t7,
+    .t8 {
+        background-color: green;
+        box-shadow: 10px 10px 5px green;
+    }
+
+    form {
+        background-color: blueviolet;
+        box-shadow: 10px 10px 5px black;
+    }
+
+    .sub {
+        background-color: aqua;
+        box-shadow: 10px 10px 5px black;
+    }
+    
+}
+@media screen and (min-width:1440px) and (max-width:2560px) {
+    th {
+        background-color: teal;
+
+    }
+
+    .t1,
+    .t2,
+    .t3,
+    .t4 {
+
+        background-color: gold;
+        box-shadow: 10px 10px 2px yellow;
+    }
+
+    .t5,
+    .t6,
+    .t7,
+    .t8 {
+        background-color: green;
+        box-shadow: 10px 10px 5px green;
+    }
+
+    form {
+        background-color: blueviolet;
+        box-shadow: 10px 10px 5px black;
+    }
+
+    .sub {
+        background-color: aqua;
+        box-shadow: 10px 10px 5px black;
+    }
+    
+}
